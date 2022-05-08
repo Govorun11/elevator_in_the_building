@@ -36,3 +36,4 @@ class Floor:
     def remove_passengers(self, old_passengers: List[int]) -> None:
         for passenger in old_passengers:
             self.passengers.remove(passenger)
+

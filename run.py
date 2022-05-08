@@ -8,3 +8,4 @@ DOWN: int = 0
 if __name__ == '__main__':
     app = application.Application()
     app.run()
+
