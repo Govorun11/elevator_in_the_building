@@ -25,4 +25,3 @@ class Elevator:
     def change_direction(self, direction: int) -> int:
         self.direction = direction
         return self.direction
-
