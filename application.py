@@ -21,7 +21,7 @@ class Application:
     def run(self) -> None:
         while len(self.elevator.passengers) or self._get_total_passenger_number():
             for floor in self.all_floors:
-                # sleep(2)
+                sleep(2)
                 self.elevator.current_floor = floor.number
                 self._show_elevator_details()
 
